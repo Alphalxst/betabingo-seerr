@@ -311,7 +311,7 @@
   }
 
   input[type='checkbox'] {
-    @apply h-6 w-6 rounded-md text-indigo-600 transition duration-150 ease-in-out;
+    @apply h-6 w-6 rounded-md text-orange-600 transition duration-150 ease-in-out;
   }
 
   input[type='text'],
@@ -346,7 +346,7 @@
   }
 
   button.input-action {
-    @apply relative -ml-px inline-flex items-center border border-gray-500 bg-indigo-600 bg-opacity-80 px-3 py-2 text-sm font-medium leading-5 text-white last:rounded-r-md sm:px-3.5;
+    @apply relative -ml-px inline-flex items-center border border-gray-500 bg-orange-600 bg-opacity-80 px-3 py-2 text-sm font-medium leading-5 text-white last:rounded-r-md sm:px-3.5;
   }
 
   button.input-action[disabled] {
@@ -496,7 +496,7 @@
   }
 
   input[type='range']::-webkit-slider-thumb {
-    @apply rounded-full border-0 bg-indigo-500;
+    @apply rounded-full border-0 bg-orange-500;
     pointer-events: all;
     width: 16px;
     height: 16px;
@@ -504,7 +504,7 @@
   }
 
   input[type='range']::-moz-range-thumb {
-    @apply rounded-full border-0 bg-indigo-500;
+    @apply rounded-full border-0 bg-orange-500;
     pointer-events: all;
     width: 16px;
     height: 16px;
@@ -550,7 +550,7 @@
   }
 
   .text-overseerr {
-    @apply bg-gradient-to-br from-indigo-400 to-purple-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-orange-500 to-orange-400 bg-clip-text text-transparent;
   }
 
   @media all and (display-mode: browser) {
